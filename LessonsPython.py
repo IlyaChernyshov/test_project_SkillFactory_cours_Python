@@ -97,3 +97,9 @@ list_id_after = id(shopping_center[-1])
 
 print(list_id_after is list_id_before)
 print(list_id_before == list_id_after)
+
+#                      \\\\\\\ |||   МОДУЛЬ 3    ||| //////
+print('Hfrtndfd')
+
+
+
