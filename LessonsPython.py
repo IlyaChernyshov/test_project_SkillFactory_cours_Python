@@ -98,8 +98,12 @@ list_id_after = id(shopping_center[-1])
 print(list_id_after is list_id_before)
 print(list_id_before == list_id_after)
 
-#                      \\\\\\\ |||   МОДУЛЬ 3    ||| //////
-print('Hfrtndfd')
-
-
-
+print(not True)
+# можно проверить, находится ли число 1 в промежутке (0,4)
+cond1 = 0 < 1
+cond2 = 1 < 4
+print(cond1 and cond2)
+# или, например, содержат ли две строки один и тот же символ
+cond3 = 't' in "python"
+cond4 = 't' in "django"
+print(cond3 and cond4)
