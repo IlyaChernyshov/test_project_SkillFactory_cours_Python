@@ -107,3 +107,6 @@ print(cond1 and cond2)
 cond3 = 't' in "python"
 cond4 = 't' in "django"
 print(cond3 and cond4)
+# ЗАДАЧА
+def is_leap_year(x):
+    return x % 4 == 0 and (x % 100 != 0 or x % 400 == 0)
